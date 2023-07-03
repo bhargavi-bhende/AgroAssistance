@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Agricultural Product Buyer</title>
+  <link rel="stylesheet" href="css/style2.css">
+  <link href="css/bootstrapFarmer.css" rel="stylesheet" type="text/css" media="all">
+  <link href="css/styleFarmer.css" rel="stylesheet" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+  <style>
+    
+    .products {
+      background-color: #f5f5f5;
+      padding: 40px 0;
+    }
+
+    .product-list {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .product-item {
+      text-align: center;
+      margin: 0 20px;
+    }
+
+    .product-item img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .product-item h3 {
+      margin-top: 20px;
+      font-size: 20px;
+      color: #333;
+    }
+
+    .product-item p {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #666;
+    }
+
+    /* Testimonials section */
+    .testimonials {
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    .testimonial-list {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .testimonial-item {
+      text-align: center;
+      margin: 0 20px;
+    }
+
+    .testimonial-item img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .testimonial-item h3 {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #333;
+    }
+
+    .testimonial-item p {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #666;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="banner2">
+      <div class="container">
+        <div class="header">
+          <div class="head-nav">
+            <span class="menu"> </span>
+            <ul class="cl-effect-1">
+              <li>
+                <a href="dashboard2.html"><img src="images/logo.png" class="img-responsive" alt="" /></a>
+              </li>
+              <li class="active"><a href="dashboard2.html">Home</a></li>
+              <li><a href="readmore.html">About</a></li>
+              <li><a href="request2.html">Request</a></li>
+              <li><a href="profile2.html">Profile</a></li>
+              <div class="clearfix"> </div>
+            </ul>
+          </div>
+          
+          <div class="social">
+            <ul>
+              <li><a href="#"><i class="fb"></i></a></li>
+              <li><a href="#"><i class="twt"></i></a></li>
+              <li><a href="#"><i class="goog"></i></a></li>
+              <div class="clearfix"> </div>
+            </ul>
+          </div>
+          <div class="clearfix"> </div>
+        </div>			
+      </div>
+    </div>
+  </header>    
+
+ 
+
+  <section class="products">
+    <div class="container">
+      <h2>Explore Our Products</h2>
+      <div class="product-list">
+        <div class="product-item">
+          <img src="images/product1.jpg" alt="Product 1" />
+          <h3>Vegetables</h3>
+          <p>Find a variety of fresh and organic vegetables sourced directly from farmers.</p>
+        </div>
+        <div class="product-item">
+          <img src="images/product2.jpg" alt="Product 2" />
+          <h3>Fruits</h3>
+          <p>Discover a wide range of juicy and seasonal fruits cultivated by our trusted farmers.</p>
+        </div>
+        <div class="product-item">
+          <img src="images/product3.jpg" alt="Product 3" />
+          <h3>Grains</h3>
+          <p>Explore nutritious and high-quality grains to fulfill your dietary needs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="container">
+      <h2>What Our Buyers Say</h2>
+      <div class="testimonial-list">
+        <div class="testimonial-item">
+          <img src="images/buy1.jpg" alt="Buyer 1" />
+          <h3>Indian Dhaba</h3>
+          <p>"I have been using this platform to buy fresh vegetables for my restaurant. The quality and service are exceptional!"</p>
+        </div>
+        <div class="testimonial-item">
+          <img src="images/buyer2.jpg" alt="Buyer 2" />
+          <h3>Tilak Verma</h3>
+          <p>"As a health-conscious individual, I rely on this website to get the best organic produce. Highly recommended!"</p>
+        </div>
+        <div class="testimonial-item">
+          <img src="images/buyer3.jpg" alt="Buyer 3" />
+          <h3>Abhishek Patil</h3>
+          <p>"I love the variety of fruits available here. The prices are competitive, and the delivery is always on time."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2023 Agricultural Product Buyer. All rights reserved. | Designed by Team VBhOG</p>
+    </div>
+  </footer>
+
+  <script defer src="jsFarmer/jquery.flexslider.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+  <div id="google_translate_element"></div>
+ 
+				<script type="text/javascript">
+					function googleTranslateElementInit() {
+						new google.translate.TranslateElement(
+							{pageLanguage: 'en'},
+							'google_translate_element'
+						);
+					}
+				</script>
+			 
+				<script type="text/javascript"
+						src=
+			"https://translate.google.com/translate_a/element.js?
+			cb=googleTranslateElementInit">
+				</script>
+	</div>
+</body>
+</html>
